@@ -358,6 +358,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#social-midia{
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#social-midia a{
+  width: 40px;
+  height: 1px;
+ 
+}
+
+#social-midia img{
+  margin: 0 5px;
+  
+}
+
 .CookieMessage {
     position: fixed;
     bottom: 0;
