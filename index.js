@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
     const outrosLink = document.getElementById("outrosLink");
     const menu2 = document.getElementById("menu2");
@@ -20,3 +21,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+

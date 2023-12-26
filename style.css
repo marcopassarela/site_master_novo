@@ -261,7 +261,6 @@
   color: var(--color-white);
 }
 
-
 .box3 i{
   color: var(--color-blue);
 }
@@ -343,3 +342,48 @@
   background-color: rgb(6, 160, 160);
   margin-left: 3%;
 }
+
+#baseboard{
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(205, 219, 0);
+}
+
+.CookieMessage {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #121212;
+    z-index: 999;
+    display: none;
+  }
+  
+  .CookieMessage-content {
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  .CookieMessage-content a{
+    color: white;
+  }
+  .CookieMessage-content p{
+    margin: 0 0 20px 0;
+  }
+  
+  .CookieMessage-button {
+    background: #00C2FF;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  
+  }
+  .CookieMessage-button:hover{
+    background: #5cd9ff;
+  }
