@@ -35,6 +35,11 @@
 #menu a:hover{
   text-decoration: underline;
 }
+@media screen and (max-width: 770px) {
+    #menu span{
+        font-size: 1rem;
+    }
+}
 
 .student{
     color: var(--color-white);
@@ -63,6 +68,16 @@
     transition: height 1s ease, opacity 1s ease;
     z-index: 2;
 }
+@media screen and (max-width: 770px) {
+    #menu2 span{
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 
 #menu2.ativo {
     background-color: var(--color-blue);
@@ -74,6 +89,11 @@
     z-index: 2;
     position: absolute;
     width: 100%;
+}
+@media screen and (max-width: 770px) {
+    #menu2.ativo{
+        /*TERMINAR*/
+    }
 }
 
 #menu2 span:hover{
@@ -96,6 +116,12 @@
   display: flex;
   z-index: 1;
 }
+@media screen and (max-width: 770px) {
+    #container{
+        display: flex;
+        height: 30vh;
+    }
+}
 
 #container video{
   position: absolute;
@@ -103,6 +129,13 @@
   height: 80%;
   object-fit: cover;
   z-index: 1;
+}
+@media screen and (max-width: 770px) {
+    #container video{
+        position: absolute;
+        width: 100%;
+        height: 30vh;
+    }
 }
 
 .navegation{
@@ -113,6 +146,11 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 770px) {
+    .navegation{
+        width: 100%;     
+    }
+}
 
 .box{
   width: 1200px;
@@ -121,6 +159,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 770px) {
+    .box{
+        width: 100%;
+    }
 }
 
 .box1{
@@ -136,6 +179,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 770px) {
+    .box1 i{
+      font-size: 3rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .box2 i{
+      font-size: 3rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .box3 i{
+      font-size: 3rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .box4 i{
+      font-size: 3rem;
+    }
 }
 .box p{
   display: flex;
