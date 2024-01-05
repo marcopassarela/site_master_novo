@@ -482,7 +482,7 @@
 #privacy{
   background-color: red;
   width: 80%;
-  height: 150vh;
+  height: 300vh;
   margin: auto;
 }
 #privacy h2{
@@ -501,7 +501,7 @@
 .politica{
   background-color: blue;
   width: 40%;
-  height: 150vh;
+  height: 300vh;
   display: flex;
   float: right;
 }
