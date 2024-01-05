@@ -218,7 +218,7 @@
   margin-top: -5%;
   margin-left: 5%;
   margin-right: 5%;
-  font-weight: 100;
+  font-weight: 400;
 }
 .box a{
   text-decoration: none;
@@ -415,7 +415,7 @@
 .rodape{
   margin-top: 10px;
 }
-
+ 
 .rodape li{
   list-style: none;
   display: flex;
@@ -493,7 +493,7 @@
   margin-left: 10px;
 }
 #privacy li{
-  font-size: 1rem;
+  font-size: 0.9rem;
   list-style: none;
   width: 50%;
   text-align: justify;
@@ -504,7 +504,11 @@
   width: 40%;
   height: 295vh;
   float: right;
-  margin-top: 5px;
+}
+
+.politica h1{
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .politica a{
@@ -513,10 +517,14 @@
 }
 
 .politica span{
-  font-size: 1rem;
+  font-size: 0.9rem;
   height: 1vh;
   margin-left: 20px;
   color: black;
   margin-bottom: 10px;
   display: flex;
+}
+
+.politica span:hover{
+  text-decoration: underline;
 }
