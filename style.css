@@ -412,6 +412,10 @@
   background-color: rgb(255, 255, 255);
 }
 
+.rodape{
+  margin-top: 10px;
+}
+
 .rodape li{
   list-style: none;
   display: flex;
