@@ -432,7 +432,6 @@
 #social-midia a{
   width: 40px;
   height: 1px;
- 
 }
 
 #social-midia img{
@@ -480,7 +479,6 @@
   }
 
 #privacy{
-  background-color: red;
   width: 80%;
   height: 300vh;
   margin: auto;
@@ -493,15 +491,28 @@
 #privacy li{
   font-size: 1rem;
   list-style: none;
-  width: 40%;
+  width: 50%;
   text-align: justify;
   margin-left: 10px;
 }
 
 .politica{
-  background-color: blue;
   width: 40%;
-  height: 300vh;
-  display: flex;
+  height: 295vh;
   float: right;
+  margin-top: 5px;
+}
+
+.politica a{
+  height: 1vh;
+  text-decoration: none;
+}
+
+.politica span{
+  font-size: 1rem;
+  height: 1vh;
+  margin-left: 20px;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
 }
