@@ -148,7 +148,7 @@
 }
 @media screen and (max-width: 770px) {
     .navegation{
-        width: 100%;     
+        width: 100%;  
     }
 }
 
@@ -163,6 +163,8 @@
 @media screen and (max-width: 770px) {
     .box{
         width: 100%;
+        flex-direction: column;
+        margin-top: 300px;
     }
 }
 
@@ -182,22 +184,22 @@
 }
 @media screen and (max-width: 770px) {
     .box1 i{
-      font-size: 3rem;
+    font-size: 2.5rem;
     }
 }
 @media screen and (max-width: 770px) {
     .box2 i{
-      font-size: 3rem;
+    font-size: 2.5rem;
     }
 }
 @media screen and (max-width: 770px) {
     .box3 i{
-      font-size: 3rem;
+    font-size: 2.5rem;
     }
 }
 @media screen and (max-width: 770px) {
     .box4 i{
-      font-size: 3rem;
+    font-size: 2.5rem;
     }
 }
 .box p{
@@ -218,7 +220,7 @@
   margin-top: -5%;
   margin-left: 5%;
   margin-right: 5%;
-  font-weight: 100;
+  font-weight: 400;
 }
 .box a{
   text-decoration: none;
@@ -269,7 +271,7 @@
 }
 .box2 i{
   color: var(--color-blue);
-  font-size: 5rem;
+  
 }
 .box2 p{
   color: var(--color-blue);
@@ -357,9 +359,22 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 770px) {
+    .home{
+    margin-top: 80%;
+    
+    }
+}
 
 .home p{
   font-size: 2rem;
+}
+@media screen and (max-width: 770px) {
+    .home p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    }
 }
 
 .home2{
@@ -367,6 +382,12 @@
   justify-content: center;
   align-items: center;
   margin-top: 1%;
+}
+@media screen and (max-width: 770px) {
+    .home2 p{
+    text-align: center;
+    width: 80%;
+    }
 }
 
 #carrossel{
@@ -412,6 +433,10 @@
   background-color: rgb(255, 255, 255);
 }
 
+.rodape{
+  margin-top: 10px;
+}
+ 
 .rodape li{
   list-style: none;
   display: flex;
@@ -426,13 +451,12 @@
   height: 4vh;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #social-midia a{
   width: 40px;
   height: 1px;
- 
 }
 
 #social-midia img{
@@ -480,9 +504,8 @@
   }
 
 #privacy{
-  background-color: red;
   width: 80%;
-  height: 100vh;
+  height: 300vh;
   margin: auto;
 }
 #privacy h2{
@@ -491,17 +514,38 @@
   margin-left: 10px;
 }
 #privacy li{
-  font-size: 1rem;
+  font-size: 0.9rem;
   list-style: none;
-  width: 40%;
+  width: 50%;
   text-align: justify;
   margin-left: 10px;
 }
 
 .politica{
-  background-color: blue;
   width: 40%;
-  height: 100vh;
-  display: flex;
+  height: 295vh;
   float: right;
+}
+
+.politica h1{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.politica a{
+  height: 1vh;
+  text-decoration: none;
+}
+
+.politica span{
+  font-size: 0.9rem;
+  height: 1vh;
+  margin-left: 20px;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.politica span:hover{
+  text-decoration: underline;
 }
