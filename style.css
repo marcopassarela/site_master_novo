@@ -478,3 +478,30 @@
   .CookieMessage-button:hover{
     background: #5cd9ff;
   }
+
+#privacy{
+  background-color: red;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+#privacy h2{
+  font-size: 1.3rem; 
+  right: 10%;
+  margin-left: 10px;
+}
+#privacy li{
+  font-size: 1rem;
+  list-style: none;
+  width: 40%;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.politica{
+  background-color: blue;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  float: right;
+}
