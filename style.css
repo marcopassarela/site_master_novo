@@ -488,12 +488,14 @@
 #privacy h2{
   font-size: 1.3rem; 
   right: 10%;
+  margin-left: 10px;
 }
 #privacy li{
   font-size: 1rem;
   list-style: none;
   width: 40%;
   text-align: justify;
+  margin-left: 10px;
 }
 
 .politica{
