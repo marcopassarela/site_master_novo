@@ -370,6 +370,28 @@
   align-items: center;
   margin-top: 1%;
 }
+@media screen and (max-width: 770px) {
+    .home p{
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 30%;
+      margin-top: 250%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .home2{
+      margin-top: 130%;
+      width: 100%;      
+    }
+}
+@media screen and (max-width: 770px) {
+    .home2 p{
+      font-size: 1.1rem;
+      width: 80%;
+      text-align: center;
+    }
+}
+
 
 #carrossel{
   margin-top: 7%;
@@ -406,6 +428,24 @@
   height: 250px;;
   background-color: rgb(6, 160, 160);
   margin-left: 3%;
+}
+@media screen and (max-width: 770px) {
+    #carrossel{
+      width: 100%;
+      height: 25vh;
+    }
+}
+@media screen and (max-width: 770px) {
+    .img1, .img2, .img3{
+      width: 100%;
+      height: 150px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .imgs{
+      width: 100%;
+      height: 20vh;
+    }
 }
 
 #baseboard{
@@ -444,6 +484,12 @@
   margin: 0 5px;
   
 }
+@media screen and (max-width: 770px) {
+    #social-midia{
+      margin-top: 7%;
+    }
+}
+
 
 .CookieMessage {
     position: fixed;
