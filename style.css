@@ -163,6 +163,8 @@
 @media screen and (max-width: 770px) {
     .box{
         width: 100%;
+        flex-direction: column;
+        margin-top: 120%;
     }
 }
 
@@ -182,22 +184,22 @@
 }
 @media screen and (max-width: 770px) {
     .box1 i{
-      font-size: 3rem;
+      
     }
 }
 @media screen and (max-width: 770px) {
     .box2 i{
-      font-size: 3rem;
+      
     }
 }
 @media screen and (max-width: 770px) {
     .box3 i{
-      font-size: 3rem;
+      
     }
 }
 @media screen and (max-width: 770px) {
     .box4 i{
-      font-size: 3rem;
+      
     }
 }
 .box p{
