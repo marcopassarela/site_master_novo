@@ -493,7 +493,6 @@
     }
 }
 
-
 .CookieMessage {
     position: fixed;
     bottom: 0;
@@ -578,4 +577,24 @@
 
 .politica span:hover{
   text-decoration: underline;
+}
+
+#pacotes{
+  width: 20%;
+  height: 5vh;
+  background-color: red;
+  margin: auto;
+}
+
+#pacotes h1{
+  text-align: center;
+  font-family: "Work Sans",Arial,Helvetica,sans-serif;
+}
+
+.pacotes_geral{
+  width: 85%;
+  height: 100vh;
+  background-color: black;
+  margin: auto;
+  margin-top: 1%;
 }
