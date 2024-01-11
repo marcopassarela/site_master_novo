@@ -184,22 +184,22 @@
 }
 @media screen and (max-width: 770px) {
     .box1 i{
-      
+      /*Terminar*/
     }
 }
 @media screen and (max-width: 770px) {
     .box2 i{
-      
+      /*Terminar*/
     }
 }
 @media screen and (max-width: 770px) {
     .box3 i{
-      
+      /*Terminar*/
     }
 }
 @media screen and (max-width: 770px) {
     .box4 i{
-      
+      /*Terminar*/
     }
 }
 .box p{
@@ -392,7 +392,6 @@
     }
 }
 
-
 #carrossel{
   margin-top: 7%;
   background-color: red;
@@ -431,19 +430,23 @@
 }
 @media screen and (max-width: 770px) {
     #carrossel{
-      width: 100%;
+      width: 80%;
       height: 25vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
     }
 }
 @media screen and (max-width: 770px) {
     .img1, .img2, .img3{
-      width: 100%;
-      height: 150px;
+      width: 150px;
+      height: 100px;
     }
 }
 @media screen and (max-width: 770px) {
     .imgs{
-      width: 100%;
+      width: 90%;
       height: 20vh;
     }
 }
