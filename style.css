@@ -593,7 +593,7 @@
 
 .container{
   width: 85%;
-  height: 100vh;
+  height: 1300px;
   background-color: black;
   margin: auto;
   margin-top: 1%;
@@ -617,6 +617,24 @@
   display: flex;
   justify-content: center;
 
+}
+.sub_container_line3{
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(43, 255, 0);
+  margin-top: 2%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.sub_container_line4{
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(4, 0, 255);
+  margin-top: 2%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card1{
