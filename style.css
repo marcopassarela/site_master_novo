@@ -757,14 +757,18 @@
   width: 150px;
   height: 5vh;
   cursor: pointer;
-  background-color: red;
+  background-color: rgb(36, 100, 27);
+  color: white;
+  border: none;
 }
 
 #btn_iphone{
   width: 150px;
   height: 5vh;
   cursor: pointer;
-  background-color: red;
+  background-color: rgb(36, 100, 27);
+  color: white;
+  border: none;
 }
 
 .android a{
