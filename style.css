@@ -736,21 +736,31 @@
 
 .android{
   width: 300px;
-  height: 200px;
+  height: 300px;
   margin-left: 15px;
   margin-right: 15px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
 }
 
 .iphone{
   width: 300px;
-  height: 200px;
+  height: 300px;
   margin-left: 15px;
   margin-right: 15px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
 }
 
 .android img{
-  margin-top: -8%;
-  margin-left: 3%;
+  margin-top: 8%;
+  margin-left: 7%;
+}
+
+.iphone img{
+  margin-top: 16%;
 }
 
 #btn_android{
