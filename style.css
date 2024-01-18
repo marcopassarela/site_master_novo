@@ -781,6 +781,10 @@
   border: none;
 }
 
+#btn_android:hover{
+  background-color: rgb(25, 77, 18);
+}
+
 .android a{
   display: flex;
   justify-content: center;
