@@ -736,7 +736,7 @@
 
 .android{
   width: 300px;
-  height: 300px;
+  height: 450px;
   margin-left: 15px;
   margin-right: 15px;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
@@ -820,4 +820,22 @@
   width: 150px;
   margin: auto;
   margin-top: 8%;
+}
+
+.android li{
+  font-size: 0.8rem;
+  list-style: none;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.android h3{
+  font-size: 0.7rem;
+  margin-top: 10px;
+  text-align: right;
+  margin-right: 10px;
+}
+.android h4{
+  margin-left: 10px;
+  margin-top: 10px;
 }
