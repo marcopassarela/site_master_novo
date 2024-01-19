@@ -742,6 +742,8 @@
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
   background-color: rgb(235, 235, 235);
   border-radius: 15px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
 }
 
 .iphone{
@@ -752,6 +754,16 @@
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
   background-color: rgb(235, 235, 235);
   border-radius: 15px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.android:hover{
+  transform: scale(1.1);
+}
+
+.iphone:hover{
+  transform: scale(1.1);
 }
 
 .android img{
