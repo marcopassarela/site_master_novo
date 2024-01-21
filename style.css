@@ -493,7 +493,6 @@
     }
 }
 
-
 .CookieMessage {
     position: fixed;
     bottom: 0;
@@ -578,4 +577,283 @@
 
 .politica span:hover{
   text-decoration: underline;
+}
+
+#pacotes{
+  width: 30%;
+  height: 5vh;
+  background-color: red;
+  margin: auto;
+}
+
+#pacotes h1{
+  text-align: center;
+  font-family: "Work Sans",Arial,Helvetica,sans-serif;
+}
+
+.container{
+  width: 85%;
+  height: 1300px;
+  background-color: black;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.sub_container_line1{
+  width: 100%;
+  height: 40vh;
+  background-color: red;
+  margin-top: 2%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.sub_container_line2{
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(43, 255, 0);
+  margin-top: 2%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+.sub_container_line3{
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(43, 255, 0);
+  margin-top: 2%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.sub_container_line4{
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(4, 0, 255);
+  margin-top: 2%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card1{
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card2{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(0, 225, 255);
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card3{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 230, 0);
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card4{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(0, 255, 13);
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card5{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(7, 7, 7);
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: blue;
+}
+.card6{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(212, 11, 11);
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: blue;
+}
+.card7{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(7, 7, 7);
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: blue;
+}
+.card8{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 153, 0);
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: blue;
+}
+.card9{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(0, 238, 255);
+  display: flex;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: blue;
+}
+
+#apps{
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 10%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.android{
+  width: 300px;
+  height: 450px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.iphone{
+  width: 300px;
+  height: 450px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.android:hover{
+  transform: scale(1.1);
+}
+
+.iphone:hover{
+  transform: scale(1.1);
+}
+
+.android img{
+  margin-top: 8%;
+  margin-left: 7%;
+}
+
+.iphone img{
+  margin-top: 16%;
+}
+
+#btn_android{
+  width: 150px;
+  height: 5vh;
+  cursor: pointer;
+  background-color: rgb(36, 100, 27);
+  color: white;
+  border: none;
+}
+
+#btn_iphone{
+  width: 150px;
+  height: 5vh;
+  cursor: pointer;
+  background-color: rgb(36, 100, 27);
+  color: white;
+  border: none;
+}
+
+#btn_android:hover{
+  background-color: rgb(25, 77, 18);
+}
+
+#btn_iphone:hover{
+  background-color: rgb(25, 77, 18);
+}
+
+.android a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: black;
+  width: 150px;
+  margin: auto;
+}
+
+.iphone a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: black;
+  width: 150px;
+  margin: auto;
+  margin-top: 8%;
+}
+
+.android li{
+  font-size: 0.8rem;
+  list-style: none;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.android h3{
+  font-size: 0.7rem;
+  margin-top: 30px;
+  text-align: right;
+  margin-right: 15px;
+}
+.android h4{
+  margin-left: 10px;
+  margin-top: 35px;
+}
+
+.iphone li{
+  font-size: 0.8rem;
+  list-style: none;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.iphone h3{
+  font-size: 0.7rem;
+  margin-top: 30px;
+  text-align: right;
+  margin-right: 15px;
+}
+.iphone h4{
+  margin-left: 10px;
+  margin-top: 20px;
 }
