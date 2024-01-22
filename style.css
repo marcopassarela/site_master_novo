@@ -182,6 +182,7 @@
   justify-content: center;
   align-items: center;
 }
+
 @media screen and (max-width: 770px) {
     .box1 i{
       /*Terminar*/
@@ -222,13 +223,13 @@
   margin-right: 5%;
   font-weight: 400;
 }
-.box a{
+.box1 a{
   text-decoration: none;
 }
 .btn{
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   height: 5vh;
   align-items: center;
@@ -282,7 +283,7 @@
 .btn2{
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   height: 5vh;
   align-items: center;
@@ -302,7 +303,7 @@
 .btn3{
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   height: 5vh;
   align-items: center;
@@ -315,7 +316,7 @@
 .btn4{
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   height: 5vh;
   align-items: center;
