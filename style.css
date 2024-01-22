@@ -292,6 +292,7 @@
   border: none;
   font-size: 0.8rem;
   color: var(--color-white);
+  text-decoration: none;
 }
 
 .box3{
@@ -312,6 +313,7 @@
   border: none;
   font-size: 0.8rem;
   color: var(--color-white);
+  text-decoration: none;
 }
 .btn4{
   display: flex;
@@ -325,6 +327,7 @@
   border: none;
   font-size: 0.8rem;
   color: var(--color-white);
+  text-decoration: none;
 }
 
 .box3 i{
