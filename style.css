@@ -280,6 +280,9 @@
 .box2 h4{
   color: var(--color-blue);
 }
+.box2 a{
+  text-decoration: none;
+}
 .btn2{
   display: flex;
   margin: auto;
@@ -339,6 +342,9 @@
 .box3 h4{
   color: var(--color-blue);
 }
+.box3 a{
+  text-decoration: none;
+}
 
 .box4{
   width: 250px;
@@ -354,6 +360,9 @@
 }
 .box4 h4{
   color: var(--color-blue);
+}
+.box4 a{
+  text-decoration: none;
 }
 
 .home{
