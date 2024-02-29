@@ -468,10 +468,12 @@
   width: 100%;
   height: 5vh;
   background-color: rgb(255, 255, 255);
+ 
 }
 
 .rodape{
   margin-top: 10px;
+  align-items: center;
 }
  
 .rodape li{
@@ -547,7 +549,7 @@
 
 #privacy{
   width: 80%;
-  height: 300vh;
+  height: 215vh;
   margin: auto;
 }
 #privacy h2{
@@ -565,7 +567,7 @@
 
 .politica{
   width: 40%;
-  height: 295vh;
+  height: 100vh;
   float: right;
 }
 
@@ -606,7 +608,7 @@
 
 .container{
   width: 85%;
-  height: 1300px;
+  height: 1550px;
   background-color: black;
   margin: auto;
   margin-top: 1%;
@@ -643,7 +645,7 @@
 .sub_container_line4{
   width: 100%;
   height: 40vh;
-  background-color: rgb(4, 0, 255);
+  background-color: rgb(43, 255, 0);
   margin-top: 2%;
   align-items: center;
   display: flex;
