@@ -872,3 +872,23 @@
   margin-left: 10px;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 770px) {
+    #apps{
+      flex-direction: column;
+      margin-top: 200%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .iphone{
+      margin-top: 7%;
+    }
+}
+
+#baseboard-app{
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(255, 255, 255);
+  margin-top: 75%;
+  align-items: center;
+}
