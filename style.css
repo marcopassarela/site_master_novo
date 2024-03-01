@@ -182,6 +182,7 @@
   justify-content: center;
   align-items: center;
 }
+
 @media screen and (max-width: 770px) {
     .box1 i{
       /*Terminar*/
@@ -222,13 +223,13 @@
   margin-right: 5%;
   font-weight: 400;
 }
-.box a{
+.box1 a{
   text-decoration: none;
 }
 .btn{
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 85%;
   justify-content: center;
   height: 5vh;
   align-items: center;
@@ -279,10 +280,13 @@
 .box2 h4{
   color: var(--color-blue);
 }
+.box2 a{
+  text-decoration: none;
+}
 .btn2{
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 85%;
   justify-content: center;
   height: 5vh;
   align-items: center;
@@ -291,6 +295,7 @@
   border: none;
   font-size: 0.8rem;
   color: var(--color-white);
+  text-decoration: none;
 }
 
 .box3{
@@ -302,7 +307,7 @@
 .btn3{
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 85%;
   justify-content: center;
   height: 5vh;
   align-items: center;
@@ -311,11 +316,12 @@
   border: none;
   font-size: 0.8rem;
   color: var(--color-white);
+  text-decoration: none;
 }
 .btn4{
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 85%;
   justify-content: center;
   height: 5vh;
   align-items: center;
@@ -324,6 +330,7 @@
   border: none;
   font-size: 0.8rem;
   color: var(--color-white);
+  text-decoration: none;
 }
 
 .box3 i{
@@ -334,6 +341,9 @@
 }
 .box3 h4{
   color: var(--color-blue);
+}
+.box3 a{
+  text-decoration: none;
 }
 
 .box4{
@@ -350,6 +360,9 @@
 }
 .box4 h4{
   color: var(--color-blue);
+}
+.box4 a{
+  text-decoration: none;
 }
 
 .home{
@@ -455,10 +468,12 @@
   width: 100%;
   height: 5vh;
   background-color: rgb(255, 255, 255);
+ 
 }
 
 .rodape{
-  margin-top: 10px;
+  margin-top: 2%;
+  align-items: center;
 }
  
 .rodape li{
@@ -534,7 +549,7 @@
 
 #privacy{
   width: 80%;
-  height: 300vh;
+  height: 215vh;
   margin: auto;
 }
 #privacy h2{
@@ -552,7 +567,7 @@
 
 .politica{
   width: 40%;
-  height: 295vh;
+  height: 100vh;
   float: right;
 }
 
@@ -593,7 +608,7 @@
 
 .container{
   width: 85%;
-  height: 1300px;
+  height: 1550px;
   background-color: black;
   margin: auto;
   margin-top: 1%;
@@ -630,7 +645,7 @@
 .sub_container_line4{
   width: 100%;
   height: 40vh;
-  background-color: rgb(4, 0, 255);
+  background-color: rgb(43, 255, 0);
   margin-top: 2%;
   align-items: center;
   display: flex;
@@ -831,7 +846,7 @@
 }
 .android h3{
   font-size: 0.7rem;
-  margin-top: 30px;
+  margin-top: 25px;
   text-align: right;
   margin-right: 15px;
 }
@@ -849,11 +864,36 @@
 }
 .iphone h3{
   font-size: 0.7rem;
-  margin-top: 30px;
+  margin-top: 25px;
   text-align: right;
   margin-right: 15px;
 }
 .iphone h4{
   margin-left: 10px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 770px) {
+    #apps{
+      flex-direction: column;
+      margin-top: 200%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .iphone{
+      margin-top: 7%;
+    }
+}
+
+#baseboard-app{
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+@media screen and (max-width: 770px) {
+  #baseboard-app{
+    margin-top: 75%;
+  }
 }
