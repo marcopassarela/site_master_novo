@@ -875,7 +875,18 @@
   margin-left: 10px;
   margin-top: 35px;
 }
-
+@media screen and (max-width: 320px) {
+    .android{
+      width: 200px;
+      margin-top: 160%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .android img{
+      width: 150px;
+      margin-left: 12%;
+    }
+}
 .iphone li{
   font-size: 0.8rem;
   list-style: none;
@@ -900,9 +911,24 @@
       margin-top: 200%;
     }
 }
+
 @media screen and (max-width: 770px) {
     .iphone{
       margin-top: 7%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .iphone{
+      width: 200px;
+      margin-top: 15%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .iphone img{
+      width: 170px;
+      display: flex;
+      justify-content: center;
+      margin-left: 7%;
     }
 }
 
